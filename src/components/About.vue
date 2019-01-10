@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>What is a Crypto-Currency?</h1>
+  <div class="about hero is-fullheight-with-navbar">
+    <p class='title'>What is a Crypto-Currency?</p>
     <p>
       A cryptocurrency is a digital asset designed to work as a medium of exchange that uses strong cryptography to
       secure financial transactions, control the creation of additional units, and verify the transfer of assets.

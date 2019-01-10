@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p>Name: {{ coin.name }}</p>
+  <div class='hero is-fullheight-with-navbar'>
+    <p class='title'>Name: {{ coin.name }}</p>
     <p>Symbol: {{ coin.symbol }}</p>
     <p>Price (USD): {{coin.price_usd }}</p>
   </div>

@@ -1,6 +1,13 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="hello hero is-fullheight-with-navbar ">
+    <div class="hero-body">
+      <div class="container">
+        <img src="../assets/logo.png" >
+        <p class='title has-text-white'>{{ msg }}</p>
+        <p class="subtitle has-text-white">This page is a mixture of Vuejs and Bulma, it has very little purpose other than to test my skills with api calls and intergrating a CSS framework with a Javascript framework. Below are my linkedin, github, and a way to return to my protfolio.</p>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -13,8 +20,12 @@
       }
     }
   }
+
 </script>
 
 <style scoped>
-
+.hello {
+  height: 100% !important;
+  margin: 0 auto;
+}
 </style>
