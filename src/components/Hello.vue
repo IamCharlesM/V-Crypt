@@ -5,16 +5,15 @@
 </template>
 
 <script>
-export default {
-  name: 'Hello',
-  data () {
-    return {
-      msg: 'Welcome to V-Crypt'
+  export default {
+    name: 'Hello',
+    data() {
+      return {
+        msg: 'Welcome to V-Crypt'
+      }
     }
   }
-}
 </script>
-
 
 <style scoped>
 
