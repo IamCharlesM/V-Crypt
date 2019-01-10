@@ -1,13 +1,18 @@
 <template>
   <div class='hero is-fullheight-with-navbar'>
-    <p class='title'>Name: {{ coin.name }}</p>
-    <p>Symbol: {{ coin.symbol }}</p>
-    <p>Price (USD): {{coin.price_usd }}</p>
+    <div class="hero-body">
+      <div class="container has-text-white">
+        <img src="../assets/logo.png">
+        <p class='title has-text-white'>Name: {{ coin.name }}</p>
+        <p>Symbol: {{ coin.symbol }}</p>
+        <p>Price (USD): {{coin.price_usd }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
+  import axios from 'axios'
 
   export default {
     name: 'Coins',
@@ -28,17 +33,18 @@ import axios from 'axios'
 
     methods: {
       fetchData() {
-        axios.get('https://api.coinmarketcap.com/v1/ticker/'+this.$route.params.id+'/')
-        .then((resp) => {
-          this.coin = resp.data[0]
-          console.log(resp)
-        })
-        .catch((err) => {
-          console.log(err)
-        })
+        axios.get('https://api.coinmarketcap.com/v1/ticker/' + this.$route.params.id + '/')
+          .then((resp) => {
+            this.coin = resp.data[0]
+            console.log(resp)
+          })
+          .catch((err) => {
+            console.log(err)
+          })
       }
     },
   }
+
 </script>
 
 <style scoped>

@@ -5,6 +5,12 @@
         <img src="../assets/logo.png" >
         <p class='title has-text-white'>{{ msg }}</p>
         <p class="subtitle has-text-white">This page is a mixture of Vuejs and Bulma, it has very little purpose other than to test my skills with api calls and intergrating a CSS framework with a Javascript framework. Below are my linkedin, github, and a way to return to my protfolio.</p>
+<div class="columns is-size-3 has-text-white">
+  <div class="column "><i class="fab fa-linkedin-in"></i></div>
+  <div class="column"><i class="fab fa-github"></i></div>
+  <div class="column"><i class="fas fa-desktop"></i></div>
+</div>
+
       </div>
     </div>
 

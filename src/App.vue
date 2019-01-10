@@ -7,12 +7,13 @@
     <nav class="tabs is-boxed is-fullwidth">
       <div class="container">
         <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a>Modifiers</a></li>
           <li><a><router-link :to="{ name: 'Hello' }">Home</router-link></a></li>
-          <li><a><router-link to="/about">About</router-link></a></li>
+          <li><a><router-link to="/about">About Cryptocurrency</router-link></a></li>
           <li><a><router-link to="/coins/ethereum">Ethereum</router-link></a></li>
-          <li><a><router-link to="/coins/bitcoin">Bitcoin</router-link></a></li>
+          <li><a><router-link to="/coins/bitcoin-cash">Bitcoin Cash</router-link></a></li>
+          <li><a><router-link to="/coins/ripple">Ripple</router-link></a></li>
+          <li><a><router-link to="/coins/eos">EOS</router-link></a></li>
+          <li><a><router-link to="/coins/litecoin">Litecoin</router-link></a></li>
         </ul>
       </div>
     </nav>
