@@ -10,6 +10,7 @@ Vue.use(Router)
 Vue.use(Buefy)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
