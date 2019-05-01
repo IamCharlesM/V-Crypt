@@ -26,6 +26,6 @@ export default new Router({
       path: '/coins/:id',
       name: 'Coins',
       component: Coins
-    },
+    }
   ]
 })
