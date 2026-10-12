@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 /test/unit/coverage/
 /test/e2e/reports/
+temp_auto_push.bat
 selenium-debug.log
 
 # Editor directories and files
@@ -15,3 +16,4 @@ selenium-debug.log
 *.njsproj
 *.sln
 .gitignore
+branch_structure.json
